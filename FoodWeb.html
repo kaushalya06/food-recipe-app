@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Foodweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty Recipes</h1>
+                <h2><p>Food is a sensory journey, delighting taste buds with a symphony of flavors. Sweetness brings indulgence, saltiness adds depth, and sourness offers a refreshing kick. Bitterness provides complexity, while umami imparts a savory richness. The interplay of spices, herbs, and cooking methods creates diverse and memorable culinary experiences. The taste and flavor of a dish tell a story, connecting people through shared experiences. Whether comforting home-cooked meals or exotic global cuisines, food is a universal language. In every bite, we savor the essence of tradition, innovation, and the joy of shared meals.</p></h2>
+            </div>
+            <img src="/item/indianfood.png" alt="">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+
+                <td>
+                    <div class="head">
+                        <h1>Food <span>Recipes</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="/item/biryani.png" alt="">
+                            <h2>Yummy Biryani recipes</h2>
+                            <p>Biryani is a fragrant and flavorful rice dish originating from the Indian subcontinent, combining aromatic basmati rice with marinated meat or vegetables and an array of spices. </p>
+                            <a href="https://www.indianhealthyrecipes.com/chicken-biryani-recipe/">Chicken biryani recipe, </a>
+                            <a href="https://hebbarskitchen.com/hyderabadi-veg-biryani-veg-dum-biryani/">Veg biryani recipe, </a>
+                            <a href="https://www.cubesnjuliennes.com/mutton-biryani-recipe/">Mutton biryani recipe</a>
+                        </div>
+                        <div class="card">
+                            <img src="/item/cake.png" alt="">
+                            <h2>Delicious cake recipes</h2>
+                            <p>Cake: a sweet baked treat, served in diverse forms like layer cakes or cupcakes, often adorned with delightful frostings. A versatile and cherished dessert for celebrations.</p>
+                            <a href="https://www.vegrecipesofindia.com/recipes/eggfree-cakes/">different cake recipes</a>
+                        </div>
+                        <div class="card">
+                            <img src="/item/rasmalai.png" alt="">
+                            <h2>Mouthwatering rasmalai</h2>
+                            <p>Rasmalai: South Asian dessert featuring soft paneer dumplings soaked in sweet, cardamom-infused milk, garnished with pistachios or almonds for a creamy and indulgent treat.</p>
+                            <a href="https://www.indianhealthyrecipes.com/rasmalai-recipe-easy-rasmalai-in-10-mins-diwali-recipes/">rasmalai recipe</a>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="/item/burger1.png" alt="">
+                            <h2>Savory Burger </h2>
+                            <p>Burger: Iconic sandwich with a ground meat patty in a bun, customizable with toppings like lettuce, tomatoes, cheese, and condiments, offering a widely enjoyed fast-food choice.</p>
+                            <a href="https://www.indianhealthyrecipes.com/veg-burger-recipe-veggie-burger-recipe/">Veg burger recipe, </a>
+                            <a href="https://www.indianhealthyrecipes.com/chicken-burger/">chicken burger recipe </a>
+                        
+                        </div>
+                        <div class="card">
+                            <img src="/item/cottoncandy.png" alt="">
+                            <h2>Whimsical cotton candy</h2>
+                            <p>Cotton candy: Sweet confection spun from liquefied sugar, creating airy, colorful threads—a popular and whimsical treat at fairs and carnivals.</p>
+                            <a href="https://recipes.net/dessert/candy/homemade-cotton-candy-recipe/">cotton candy recipe</a>
+                        </div>
+                        <div class="card">
+                            <img src="/item/chicken1.png" alt="">
+                            <h2>Tender chicken</h2>
+                            <p> Chicken, a widely consumed food, is prized for its lean protein, versatility, and mild flavor. It serves as a staple in diverse global cuisines, offering a nutritious and flavorful option for meals.</p>
+                            <a href="https://www.indianhealthyrecipes.com/recipes/chicken-recipes/">different chicken recipes</a>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="/item/noodle2.png" alt="">
+                            <h2>Delicate noodles</h2>
+                            <p>Noodles: Thin strips of dough, made from wheat, rice, or egg, are cooked by boiling or frying. Versatile and fundamental in global cuisines, they come in various shapes and are commonly served in soups, stir-fries, or with sauces.</p>
+                            <a href="https://www.tarladalal.com/recipes-for-veg-noodles-232">different veg noodles recipes</a>
+                            <a href="https://www.gqindia.com/live-well/content/7-best-non-vegetarian-maggi-recipes-right-now-self-quarantine">different non-veg maggi recipes</a>
+                            <a href="https://www.indianhealthyrecipes.com/chicken-noodles-recipe/">different non-veg noodles recipes</a>
+                            
+                        </div>
+                        <div class="card">
+                            <img src="/item/momo.png" alt="">
+                            <h2>Satisfying momos</h2>
+                            <p>Momo: Savory dumplings of Tibetan and Nepali origin, filled with seasoned minced meat or vegetables, steamed or fried to tender perfection, and served with a flavorful dipping sauce for a delightful culinary experience.</p>
+                            <a href="https://myfoodstory.com/momos-recipe/">different momos recipes</a>
+                        </div>
+                        <div class="card">
+                            <img src="/item/pizza1.png" alt="">
+                            <h2>Irresitible pizza</h2>
+                            <p>Pizza, a beloved dish worldwide, baked to perfection,  offers a harmonious blend of flavors, textures, and aromas, making it a universally satisfying and iconic culinary delight.</p>
+                            <a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/">pizza recipe</a>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Food <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="/item/indianfood.png" alt="">
+                            <h2>Fact About Indian Food</h2>
+                            <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="/item/burger1.png" alt="">
+                            <h2>Different Type of Burger</h2>
+                            <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="/item/chickencurry.png" alt="">
+                            <h2>Delicious Chicken Recipes</h2>
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>We believe that cooking is more than just a daily chore; it's a journey of creativity, discovery, and shared joy. Our platform is a labor of love, born out of a passion for bringing people together through the universal language of food. We strive to curate a collection of recipes that not only tantalize taste buds but also tell a tale. Our team is dedicated to scouring the culinary landscape for the most delicious, inventive, and culturally rich recipes, ensuring that your time in the kitchen is an adventure worth savoring.</p>
+                <br>
+                <h2>Contact Details</h2>
+                
+                <p style="color:red;">For more recipes do contact us on ph.no: <span style="color: blue;">xxxxxyyyyy</span>; mail ID: <span style="color: blue;">mailsatfoodhub@gmail.com</span></p>
+            </div>
+           
+        </div>
+    </div>
+    <script src="Foodweb.js"></script>
+</body>
+</html>
